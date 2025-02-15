@@ -1,0 +1,14 @@
+path: D:/AcneProject/acnedataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['blackheads', 'dark spot', 'nodules', 'papules', 'pustules', 'whiteheads']
+
+roboflow:
+  workspace: acne-ugaek
+  project: acne-bwhc5
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/acne-ugaek/acne-bwhc5/dataset/2
